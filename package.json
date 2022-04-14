@@ -1,0 +1,23 @@
+{
+  "name": "try-parcel",
+  "version": "0.0.1",
+  "description": "Try Parcel",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "clean": "rimraf dist",
+    "dev": "parcel src/index.html --lazy",
+    "start": "python3 -m http.server -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianhomer/try-parcel.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianhomer/try-parcel/issues"
+  },
+  "homepage": "https://github.com/ianhomer/try-parcel#readme",
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}
