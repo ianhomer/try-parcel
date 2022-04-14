@@ -1,2 +1,6 @@
-# try-parcel
-Try Parcel
+# Try Parcel
+
+    pnpm install
+    pnpm dev
+
+

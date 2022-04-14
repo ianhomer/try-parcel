@@ -1,0 +1,25 @@
+html, body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+div#app {
+  display: grid;
+  height: 100vh;
+}
+
+header {
+  height: auto;
+  padding: 1em;
+}
+
+main {
+  background-color: #000;
+  color: #fff
+}
+
+section {
+  padding: 1em;
+}
